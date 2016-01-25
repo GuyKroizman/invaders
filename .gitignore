@@ -1,3 +1,6 @@
+# Unity generated and a few customs #
+# ================================= #
+
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -18,9 +21,24 @@ ExportedObj/
 *.booproj
 *.svd
 
+# Ignore UnityVS so users can use different versions
+Assets/UnityVS/*
+
 
 # Unity3D generated meta files
 *.pidb.meta
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
